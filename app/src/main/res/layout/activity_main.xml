@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <VideoView
+        android:id="@+id/videoview"
+        android:layouth_width="0dp"
+        android:layouth_height="0dp"
+        android:layouth_margin="8dp"
+        app:layouth_constraintBotton_toBotton0f="parent"
+        app:layouth_constraintDisensionRatio="4;3"
+        app:layouth_constraintEnd_toEnd0f="parent"
+        app:layouth_constraintStart_tostart0f="parent"
+        app:layouth_constraintTop_toTop0f="parent"/>
+
+</Android.support.constraint.ConstraintLayout>
